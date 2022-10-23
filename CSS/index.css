@@ -2,35 +2,49 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    background-image: url(../Image\ -\ EXPORTAR.png);
 }
 
 .container {
     display: flex;
     justify-content: flex-end;
-    margin-top: 10%;
+    margin-top: 12%;
     width: 80vw;
     line-height: 118.5%;
+    font-weight: 900;
 }
-.container h1 {
+ul {
+    list-style: none;
+}
+.container #l1 {
     font-size: 120px;
     color: #663128;
     font-family: 'Poppins';
     position: absolute;
+    
     width: 556px;
     height: 175px;
     left: 352px;
-    top: 321px;
+    top: 390px;
 }
-.container h2 {
-    font-size: 75px;
+.container #l2 {
+    font-size: 72px;
     color: #663128;
     font-family: 'Poppins';
     position: absolute;
     width: 556px;
     height: 190px;
-    left: 382px;
-    top: 415px;
-    line-height: 200.5%;
+    left: 367px;
+    top: 500px;  
+}
+.container #l3 {
+    color: #663128;
+    font-family: 'Poppins';
+    position: absolute;
+    width: 556px;
+    height: 190px;
+    left: 360px;
+    top: 560px;  
 }
 .imgUrso{
     
