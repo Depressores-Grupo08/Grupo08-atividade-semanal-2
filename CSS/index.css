@@ -4,11 +4,36 @@
     padding: 0px;
 }
 
-.imgs {
-    position: relative;
+.container {
     display: flex;
     justify-content: flex-end;
-    margin-top: 20%;
-    height: 40vh;
+    margin-top: 10%;
+    width: 80vw;
+    line-height: 118.5%;
+}
+.container h1 {
+    font-size: 120px;
+    color: #663128;
+    font-family: 'Poppins';
+    position: absolute;
+    width: 556px;
+    height: 175px;
+    left: 352px;
+    top: 321px;
+}
+.container h2 {
+    font-size: 75px;
+    color: #663128;
+    font-family: 'Poppins';
+    position: absolute;
+    width: 556px;
+    height: 190px;
+    left: 382px;
+    top: 415px;
+    line-height: 200.5%;
+}
+.imgUrso{
+    
+    height: 50vh;
     width: 80vw;
 }
