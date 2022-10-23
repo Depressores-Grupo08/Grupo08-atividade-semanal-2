@@ -5,8 +5,10 @@
 }
 
 .imgs {
+    position: relative;
     display: flex;
     justify-content: flex-end;
+    margin-top: 20%;
     height: 40vh;
     width: 80vw;
 }
