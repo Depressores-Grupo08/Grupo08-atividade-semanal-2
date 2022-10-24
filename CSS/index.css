@@ -2,12 +2,15 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+}
+body {
+    
     background-image: url(../Image\ -\ EXPORTAR.png);
 }
 
 .container {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-end; 
     margin-top: 12%;
     width: 80vw;
     line-height: 118.5%;
@@ -17,37 +20,98 @@ ul {
     list-style: none;
 }
 .container #l1 {
-    font-size: 120px;
-    color: #663128;
-    font-family: 'Poppins';
     position: absolute;
+    width: 50vw;
+    height: 60vh;
+    left: 35vh;
+    top: 40vh;
+
+    font-size: 120px;
+    font-family: 'Poppins-Black';
+    font-weight: bolder;
+
+    display: flex;
+
+    color: #663128;
     
-    width: 556px;
-    height: 175px;
-    left: 352px;
-    top: 390px;
+    
 }
 .container #l2 {
     font-size: 72px;
     color: #663128;
     font-family: 'Poppins';
     position: absolute;
-    width: 556px;
-    height: 190px;
-    left: 367px;
-    top: 500px;  
+    width: 50vw;
+    height: 60vh;
+    left: 35vh;
+    top: 50vh; 
 }
 .container #l3 {
     color: #663128;
     font-family: 'Poppins';
     position: absolute;
-    width: 556px;
-    height: 190px;
-    left: 360px;
-    top: 560px;  
+    width: 30vw;
+    height: 60vh;
+    left: 35vh;
+    top: 58vh;   
 }
-.imgUrso{
-    
+.imgUrso {  
     height: 50vh;
     width: 80vw;
+}
+
+.container #l4{
+    position: absolute;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Poppins';
+    width: 30vw;
+    height: 60vh;
+    left: 21vh;
+    top: 65vh;
+
+}
+ .container button {
+    width: 15.84vw;
+    height: 10vh;
+    left: 53.49vh;
+    top: 99vh;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    color: #663128;
+    background: #F3CE5E;
+    box-shadow: 0px 20px 40px rgba(243, 206, 94, 0.2);
+    border-radius: 57px;
+}
+.container2 {
+    flex-direction: center;
+    display: flex;
+    align-items: center;
+    width: 200vw;
+    height: 100vh;
+    
+}
+.container2 #serv {
+    position: absolute;
+    width: 100vw;
+    height: 200vh;
+    left: 80vh;
+    top: 0vh;
+    font-family: 'Poppins';
+    color: silver;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+#imgSer {
+    position: absolute;
+    width: 55vw;
+    height: 50vh;
+    left: 40vh;
+    top: 110vh;
 }
