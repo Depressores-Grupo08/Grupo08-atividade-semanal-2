@@ -7,6 +7,7 @@ body {
     padding: 0px;
     font-family: 'Poppins';
     background-image: url(../fundo.png);
+    background-color: #FEF4DE;
 }
 section {
     width: 100%;
@@ -24,13 +25,17 @@ section {
 .container1 {
     display: flex;
     flex-direction: column;
+    color: #663128;
+
 }
 .container1 .titulo {
-    font-size: 60px;
+    font-size: 100px;
     font-weight: 900;
+    line-height: 60%;
+    position: inherit;
 }    
 .container1 .subtitulo {
-    font-size: 30px;
+    font-size: 50px;
     font-weight: 900;
     letter-spacing: 0.435em;
 }
@@ -42,12 +47,14 @@ section {
 .container1 .help {
     font-size: 20px;
     font-weight: 900;
+    line-height: 100%;
 }  
 .container2 {
     align-items: center;
     flex-direction: row;
     display: flex;
     width: 30vw;
+    background-size: 520px 400px;
 }
 .container4 {
     display: flex;
