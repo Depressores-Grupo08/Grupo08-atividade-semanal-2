@@ -1,7 +1,3 @@
-main {
-    /*padding-left: 20vw;
-    padding-right: 20vw;*/
-}
 body {
     margin: 0px;
     padding: 0px;
@@ -15,20 +11,21 @@ body {
     height: 100vh;
     align-items: center;
     background-image: url(../fundo.png);
+    background-size: cover;
 }
 
 
 .container {
-    padding-left: 20vw;
-    padding-right: 20vw;
+    padding-left: 15vw;
     display: flex;
-    align-items: center;
-    max-width: 80vw; 
+    align-items: center; 
     height: 100vh;
     flex-direction: row;   
 }
 
 .container1 {
+    margin-left: 55px;
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
     color: #663128;
@@ -44,19 +41,22 @@ body {
 
 .container1 .subtitulo {
     font-size: 50px;
-    font-weight: 900;
+    font-weight: 700;
     letter-spacing: 0.435em;
 }
 
 .container1 .texto {
-    font-size: 20px;
-    font-weight: 900;
+    margin-top: 25px;
+    font-size: 15px;
+    font-weight: 300;
     width: 30vw;
 } 
 
 .botaoFundo {
     font-size: 20px;
-    margin-top: 30px;
+    margin-top: 23px;
+    margin-right: 60px;
+    margin-left: 0px;
     width: 210px;
     height: 66px;
     background: #F3CE5E;
@@ -67,12 +67,14 @@ body {
     color: #663128;
 }
 .botaoLimpo {
+    position: relative;
+    right: 100px;
     font-size: 20px;
-    margin-top: 30px;
+    margin-top: 25px;
+    margin-left: 0px;
     width: 220px;
     height: 66px;
     background: none;
-    box-shadow: 0px 20px 40px rgba(243, 206, 94, 0.2);
     border: none;
     border-radius: 57px;
     font-family: 'Poppins';
@@ -86,17 +88,21 @@ body {
 }  
 
 .container2 {
-    align-items: center;
-    flex-direction: row;
-    display: flex;
-    width: 30vw;
+    margin-bottom: 140px;
+    margin-left: -18px;
+    margin-top: 160px;
+    padding-right: 5vh;
+    padding-left: 5vw;
+    width: 100px;
+    height: auto;
+    
 }
 
 .container4 {
+    margin-left: 20px;
     display: flex;
     align-items: center;
-    font-size: 60px;
-    width: 55vw;
+    font-size: 55px;
     height: 20vh;   
     justify-content: center;
     color: #FFFFFF;
@@ -105,17 +111,20 @@ body {
 
 
 .services {
+    font-weight: 900;
     align-items: center;
     width: 100%;
     height: 100vh;
     background-color: #663128;
+    justify-content: center;
 }
 
 .imgservices {
+    margin-top: 50px;
     align-items: center;
-    max-width: 80vw; 
+    max-width: 100vw; 
     display: flex;
-    height: 60vh;
+    height: 50vh;
     justify-content: center;
     
 }
@@ -127,5 +136,52 @@ body {
     max-width: 80vw; 
     height: 100vh;
     flex-direction: row; 
+
+}
+
+.botoes{
+    display: flex;
+    justify-content: space-around;
+    font-weight: 100;
+}
+.botao2 {
+    font-size: 20px;
+    margin-top: 120px;
+    width: 210px;
+    height: 66px;
+    background: #F3CE5E;
+    box-shadow: 0px 20px 40px rgba(243, 206, 94, 0.2);
+    border: none;
+    border-radius: 57px;
+    font-family: 'Poppins';
+    color: #663128;
+}
+
+
+.tela3 {
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    background-image: url(../fundo.png);
+    background-size: cover;
+
+}
+
+.testymonials {
+    font-weight: 900;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+}
+
+.container5 {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 55px;
+    height: 20vh;   
+    justify-content: center;
+    color: #663128;
 
 }
