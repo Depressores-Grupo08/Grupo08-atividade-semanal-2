@@ -3,6 +3,7 @@ body {
     padding: 0px;
     background-color: #FEF4DE;
 }
+
 a {
     text-decoration: none;
 }
@@ -107,106 +108,95 @@ a {
 }
 
 .container4 {
+    display: flex;
     font-family: 'Poppins';
     font-weight: 900;
-    position: relative;
-    left: 150px;
-    display: flex;
-    align-items: center;
-    font-size: 55px;
-    height: 20vh;   
+    font-size: 55px;   
     justify-content: center;
     color: #FFFFFF;
     background-color: #663128;
 }
 
 .services {
-    font-weight: 900;
-    align-items: center;
     width: 100%;
     height: 100vh;
+    display: flex;
+    font-weight: 900;
     background-color: #663128;
-    justify-content: center;
 }
 
 .imgservices {
-    position: relative;
-    left: 150px;
-    height: 50vh;
-    display: flex;
     justify-content: center;
-    
+    align-content: center;
+    display: flex;
+    height: 65vh;
 }
 
 .tela2 {
-    align-items: center;
-    max-width: 80vw; 
-    height: 100vh;
-    flex-direction: row; 
-
-}
-
-.botoes{
     display: flex;
-    justify-content: space-around;
-    font-weight: 100;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+
+
 }
+
+.botoes {
+    display: flex;
+    justify-content: center;
+}
+
 .botao2 {
     font-family: 'Poppins';
     font-weight: 700;
-    position: relative;
-
     font-size: 20px;
-    left: 150px;
-    top: 100px;
     width: 200px;
     height: 60px;
     background: #F3CE5E;
-    box-shadow: 0px 20px 40px rgba(243, 206, 94, 0.2);
     border: none;
     border-radius: 57px;
-    font-family: 'Poppins';
     color: #663128;
 }
 
 
-.tela3 {
-    width: 100%;
-    height: 100vh;
-    align-items: center;
-    background-image: url(../fundo.png);
-    background-size: cover;
-
-}
 
 .testymonials {
-    position: relative;
+    display: flex;
     width: 100%;
     height: 100vh;
     font-weight: 900;
-    justify-content: center;
     
 }
 
+.tela3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../fundo.png);
+    background-size: cover;
+    gap: 60px;
+
+}
+
 .container5 {
-    position: absolute;
-    left: 36vw;
+    display: flex;
+    justify-content: center;
     font-family: 'Poppins';
     font-weight: 900;
     align-items: center;
     font-size: 55px;
-    justify-content: center;
     color: #7C4032;
+    text-align: center;
 }
 
 .retangulos{
-    bottom: 500px;
-    max-width: 100%;
-    max-height: 70vh;
-    padding-bottom: 10;
-    top: 70px;
-    left: 120px;
-    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    gap: 60px
 }
 
 .retangulo1{
@@ -214,8 +204,6 @@ a {
     position: relative;
     width: 512px;
     height: 192px;
-    left: 225px;
-    top: 100px;
     background: #FFFFFF;
     border: 1px solid #7C4032;
     border-radius: 30px;
@@ -258,13 +246,9 @@ a {
 
 .retangulo2{
     box-sizing: border-box;
-    display: flex;
     position: relative;
     width: 512px;
     height: 192px;  
-    left: 780px;
-    top: -90px;
-    
     background: #FFFFFF;
     border: 1px solid #7C4032;
     border-radius: 30px;
@@ -306,13 +290,9 @@ a {
 
 .retangulo3{
     box-sizing: border-box;
-    display: flex;
     position: relative;
     width: 512px;
     height: 192px;  
-    left: 220px;
-    bottom: 50px;
-
     background: #FFFFFF;
     border: 1px solid #7C4032;
     border-radius: 30px;
@@ -354,13 +334,9 @@ a {
 
 .retangulo4{
     box-sizing: border-box;
-    display: flex;
     position: relative;
     width: 512px;
     height: 192px;  
-    left: 780px;
-    top: -240px;
-    
     background: #FFFFFF;
     border: 1px solid #7C4032;
     border-radius: 30px;
@@ -402,55 +378,59 @@ a {
     top: 150px;
 }
 
-.botao3{
+.botoes2 {
+    display: flex;
+    justify-content: center;
+}
+
+.botao3 {
     font-family: 'Poppins';
     font-weight: 700;
-    position: relative;
     font-size: 20px;
-    left: 650px;
-    top: -175px;
     width: 200px;
     height: 60px;
     background: #F3CE5E;
-    box-shadow: 0px 20px 40px rgba(243, 206, 94, 0.2);
     border: none;
     border-radius: 57px;
-    font-family: 'Poppins';
     color: #663128;
 }
 
-#contactus {
 
-    font-weight: 900px;
+.contactus {
+    display: flex;
     align-items: center;
-    width: 100%;
-    height: 100vh;
+    flex-direction: column;
+    width: 100%; 
+    height: 70vh; 
+}
+ 
+.tela5{
+    width: 70%;
+    flex-direction: column;
+    align-items: center;
+}
+.contcent{
+    display: flex;
     justify-content: center;
-    background-color: white;
+    align-content: center;
 }
 .container6 {
     font-family: 'Poppins';
     font-weight: 700;
     margin-left: 20px;
     display: flex;
-    align-items: center;
     height: 20vh;   
     justify-content: center;
     color: #663128;
     font-size: 64px;
-    font-weight: 900px;
-    left: 36vw;
-    position: absolute;
+    font-weight: 900;
 }
 .listas {
+    display: flex;
+    flex-direction: column;
     font-family: 'Poppins';
     font-weight: 400;
-    position: relative;
-    left: 200px;
     list-style: none;
-    position: absolute;
-    left: 53vw;
-    top: 333vh;
 }
 .icone {
     margin-right: 30px;
@@ -459,35 +439,30 @@ li {
     padding: 20px;
 }
 .back {
-    position: absolute;
+    display: flex;
     background-color: #663128;
     width: 100%;
     height: 200px;
-    top: 380vh;
 }
 .boxes{
-    position: absolute;
-    margin-top: 33vh;
-    left: 370px;
+    justify-content: center;
+    float: left;
 }
 #box{
     width: 400px;
     height: 66px;
-    left: 100px;
     border-radius: 61px;
     background-color: #E6AF99;;
 }
 #box2{
     width: 400px;
     height: 66px;
-    left: 100px;
     border-radius: 61px;
     background-color: #E6AF99;;
 }
 #box3{
     width: 400px;
     height: 66px;
-    left: 100px;
     border-radius: 61px;
     background-color: #E6AF99;
 }
