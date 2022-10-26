@@ -199,16 +199,6 @@ a {
     color: #7C4032;
 }
 
-.retangulos{
-    bottom: 500px;
-    max-width: 100%;
-    max-height: 70vh;
-    padding-bottom: 10;
-    top: 70px;
-    left: 120px;
-    position: absolute;
-}
-
 .retangulo1{
     box-sizing: border-box;
     position: relative;
@@ -419,38 +409,41 @@ a {
     color: #663128;
 }
 
-#contactus {
-
-    font-weight: 900px;
+.contactus {
+    display: flex;
     align-items: center;
-    width: 100%;
-    height: 100vh;
+    flex-direction: column;
+    width: 100%; 
+    height: 70vh; 
+}
+ 
+.tela5{
+    width: 70%;
+    flex-direction: column;
+    align-items: center;
+}
+.contcent{
+    display: flex;
     justify-content: center;
-    background-color: white;
+    align-content: center;
 }
 .container6 {
     font-family: 'Poppins';
     font-weight: 700;
     margin-left: 20px;
     display: flex;
-    align-items: center;
     height: 20vh;   
     justify-content: center;
     color: #663128;
     font-size: 64px;
-    font-weight: 900px;
-    left: 36vw;
-    position: absolute;
+    font-weight: 900;
 }
 .listas {
+    display: flex;
+    flex-direction: column;
     font-family: 'Poppins';
     font-weight: 400;
-    position: relative;
-    left: 200px;
     list-style: none;
-    position: absolute;
-    left: 53vw;
-    top: 333vh;
 }
 .icone {
     margin-right: 30px;
@@ -459,35 +452,30 @@ li {
     padding: 20px;
 }
 .back {
-    position: absolute;
+    display: flex;
     background-color: #663128;
     width: 100%;
     height: 200px;
-    top: 380vh;
 }
 .boxes{
-    position: absolute;
-    margin-top: 33vh;
-    left: 370px;
+    justify-content: center;
+    float: left;
 }
 #box{
     width: 400px;
     height: 66px;
-    left: 100px;
     border-radius: 61px;
     background-color: #E6AF99;;
 }
 #box2{
     width: 400px;
     height: 66px;
-    left: 100px;
     border-radius: 61px;
     background-color: #E6AF99;;
 }
 #box3{
     width: 400px;
     height: 66px;
-    left: 100px;
     border-radius: 61px;
     background-color: #E6AF99;
 }
