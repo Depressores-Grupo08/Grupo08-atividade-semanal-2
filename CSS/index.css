@@ -8,6 +8,9 @@ a {
     text-decoration: none;
 }
 
+.design {
+    height: 780px;
+}
 .home {
     width: 100%;
     height: 100vh;
@@ -22,6 +25,7 @@ a {
     border-bottom: 100px solid transparent; 
     border-right:750px solid #7C4032; 
     transform: rotate(-360deg);/*-360*/
+    
 }
 
 #triangulo-para-direita {
@@ -30,7 +34,6 @@ a {
     border-right:1600px solid #7C4032; 
     transform: rotate(-180deg);/*-360*/
 }
-
 
 .container {
     padding-left: 15vw;
