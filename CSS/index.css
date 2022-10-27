@@ -15,6 +15,14 @@ a {
     background-image: url(../fundo.png);
     background-size: cover;
 }
+#triangulo-para-esquerda {
+    display: flex;
+    flex-direction: row-reverse;
+    height: -10px;
+    border-bottom: 100px solid transparent; 
+    border-right:750px solid #663128; 
+    transform: rotate(-360deg);/*-360*/
+  }
 
 
 .container {
