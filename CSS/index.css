@@ -192,11 +192,13 @@ a {
 
 .retangulos{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     align-content: center;
     justify-content: center;
-    gap: 60px
+    
 }
+
+
 
 .retangulo1{
     box-sizing: border-box;
