@@ -27,8 +27,8 @@ a {
 
 #triangulo-para-direita {
     display: flex;
-    border-bottom: 200px solid transparent; 
-    border-right:1600px solid #7C4032; 
+    border-bottom: 120px solid transparent; 
+    border-right:1500px solid #7C4032; 
     transform: rotate(-180deg);/*-360*/
 }
 
